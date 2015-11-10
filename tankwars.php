@@ -7,7 +7,7 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/script.js"></script>
-
+<link rel="shortcut icon" href="favicon.png">
         <script>
             $(document).ready(function () {
                 hideAll();
