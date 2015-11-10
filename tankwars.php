@@ -12,7 +12,7 @@
             $(document).ready(function () {
                 hideAll();
                 $("#main_1_content").show();
-                
+
                 $("#sidebar ul li ul li").click(function () {
                     var id = $(this).attr('id');
                     if (id == 'main_1') {
@@ -33,7 +33,7 @@
 
         </script>
     </head>
-    <body id="home" style="margin-top: 50px">
+    <body id="home" style="margin-top: 50px; padding-bottom: 60px;" >
 
         <?php
         require_once './header.php';
@@ -41,7 +41,7 @@
         require_once './footer.php';
         ?>
 
-        <div id="main_1_content" class="container" style="padding-bottom: 50px;">
+        <div id="main_1_content" class="container" >
             <div class="row">
                 <div id="content" class="col-md-8">
                     <h1 align="center">Programming Challenge II</h1><br>
@@ -70,28 +70,28 @@
             </div>            
         </div>
 
-        <div id="main_2_content" class="container" style="padding-bottom: 50px;">
+        <div id="main_2_content" class="container">
             <div class="row">
                 <div id="content" class="col-md-8">
                     <h1  align="center">Tank Wars</h1><br>
 
                     <h2 id="main_2_sub_1">About Tank Wars</h2>
                     <p class="text-justify">Tank Wars is a server-client shooting game which has a map of a 10 x 10 grid. 
-                    Players are represented by tanks and a game can contain upto maximum of 5 players. The game objective 
-                    is to accumulate points as mush as possible while ensuring tank's own survival. Tanks can shoot bullets
-                    which move 3 times faster than the tanks. In addition to tanks, map contains following four kind of objects. </p>
-                     
+                        Players are represented by tanks and a game can contain upto maximum of 5 players. The game objective 
+                        is to accumulate points as mush as possible while ensuring tank's own survival. Tanks can shoot bullets
+                        which move 3 times faster than the tanks. In addition to tanks, map contains following four kind of objects. </p>
+
                     <ul>
                         <li>Brick Wall</li>
                         <li>Stone Wall</li>
                         <li>Water</li>
                         <li>Blank Cell</li>
                     </ul>
-                    
+
                     <p>Among above four kinds of objects, bullets can pass only through blank cells. Bullets cannot pass 
-                    through brick walls but can damage brick walls. One successful bullet hit will damage 25% of a brick. 
-                    So that a brick wall becomes a blank cell after 4 successful bullet hits. </p>
-                    
+                        through brick walls but can damage brick walls. One successful bullet hit will damage 25% of a brick. 
+                        So that a brick wall becomes a blank cell after 4 successful bullet hits. </p>
+
                     <h3>How to score points?</h3>
                     <dl>
                         <dt></dt>

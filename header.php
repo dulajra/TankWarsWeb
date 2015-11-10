@@ -37,6 +37,9 @@
                         <li>
                             <a class="page-scroll" href="aboutus.php">About us</a>
                         </li>
+                        <li>
+                            <a class="page-scroll" href="contactus.php">Contact Us</a>
+                        </li>
                     </ul>
 
 

@@ -31,3 +31,68 @@ i {
     height: 100%;
     overflow: hidden
 }*/
+
+#contact {
+    background-color: #222;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact .section-heading {
+    color: #fff;
+}
+
+#contact .form-group {
+    margin-bottom: 25px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    padding: 20px;
+}
+
+#contact .form-group input.form-control {
+    height: auto;
+}
+
+#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+#contact .text-danger {
+    color: #e74c3c;
+}

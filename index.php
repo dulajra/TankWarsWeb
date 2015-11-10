@@ -9,7 +9,7 @@
         <script src="js/script.js"></script>
     </head>
 
-    <body id="home" style="margin-top: 50px">
+    <body id="home" style="margin-top: 50px; padding-bottom: 60px;" >
 
         <?php
         require_once './header.php';
@@ -31,19 +31,19 @@
                     <div class="item active">
                         <img src="img/home_carousel/img1.jpg" alt="...">
                         <div class="carousel-caption">
-                            
+
                         </div>
                     </div>
                     <div class="item">
                         <img src="img/home_carousel/img2.jpg" alt="...">
                         <div class="carousel-caption">
-                            
+
                         </div>
                     </div>
                     <div class="item">
                         <img src="img/home_carousel/img3.jpg" alt="...">
                         <div class="carousel-caption">
-                            
+
                         </div>
                     </div>
                 </div>
