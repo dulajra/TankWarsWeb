@@ -7,39 +7,32 @@
             <link rel="stylesheet" href="css/styles.css">
             <script src="js/script.js"></script>
         </head>-->
-    
-    <body id="header_footer" class="col-md-3">
-       
+
+    <div id="sidebar" class="col-md-3">
+
         <ul class="nav nav-stacked">
-            <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2">My Courses <i class="glyphicon glyphicon-chevron-right"></i></a>
-                <ul class="nav nav-stacked collapse" id="menu2">
-                    <li><a href="#">Information &amp; Stats</a>
-                    </li>
-                    <li><a href="#">Views</a>
-                    </li>
-                    <li><a href="#">Requests</a>
-                    </li>
-                    <li><a href="#">Timetable</a>
-                    </li>
-                    <li><a href="#">Alerts</a>
-                    </li>
+            <li class="nav-header"> <a href="#main_1_sub_1" data-toggle="collapse" data-target="#menu1"> Programming Challenge II <i class="glyphicon glyphicon-chevron-down"></i></a>
+                <ul class="nav nav-stacked collapse in" id="menu1">
+                    <li id="main_1" class="active"><a href="#main_1_sub_1"><i class="glyphicon glyphicon-info-sign"></i> What is programming Challenge II? </a></li>
+                    <li id="main_1" class="active"><a href="#main_1_sub_2"><i class="glyphicon glyphicon-info-sign"></i> Course Details </a></li>
+                    <li id="main_1" class="active"><a href="#main_1_sub_3"><i class="glyphicon glyphicon-info-sign"></i> Subject Coordinators </a></li>
                 </ul>
             </li>
-            <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#userMenu">Profile <i class="glyphicon glyphicon-chevron-down"></i></a>
-                <ul class="nav nav-stacked collapse in" id="userMenu">
-                    <li class="active"> <a href="#"><i class="glyphicon glyphicon-home"></i> Home</a></li>
-                    <li><a href="#"><i class="glyphicon glyphicon-envelope"></i> Messages </a></li>
-                    <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>
+            <li class="nav-header"> <a href="#" data-toggle="collapse" data-target="#menu2"> Tanks Wars <i class="glyphicon glyphicon-chevron-right"></i></a>
+                <ul class="nav nav-stacked collapse" id="menu2">
+                    <li id="main_2" ><a href="#main_2_sub_1"><i class="glyphicon glyphicon-info-sign"></i> About Tanks Wars </a></li>
+                    <li id="main_2" ><a href="#main_2_sub_2"><i class="glyphicon glyphicon-user"></i> Client Information </a></li>
+                    <li id="main_2" ><a href="#main_2_sub_3"><i class="glyphicon glyphicon-cloud"></i> Server Information </a></li>
+                    <!--<li><a href="#"><i class="glyphicon glyphicon-cog"></i> Options</a></li>-->
                 </ul>
             </li>
             <li class="nav-header">
-                <a href="#" data-toggle="collapse" data-target="#menu3"> Social Media <i class="glyphicon glyphicon-chevron-right"></i></a>
+                <a href="#" data-toggle="collapse" data-target="#menu3"> Download <i class="glyphicon glyphicon-chevron-right"></i></a>
                 <ul class="nav nav-stacked collapse" id="menu3">
-                    <li><a href=""><i class="glyphicon glyphicon-circle"></i> Facebook</a></li>
-                    <li><a href=""><i class="glyphicon glyphicon-circle"></i> Twitter</a></li>
+                    <li  id="main_3" ><a href=""><i class="glyphicon glyphicon-download"></i> Tank Wars Client</a></li>
                 </ul>
             </li>
         </ul>
-     
-    </body>
+
+    </div>
 </html>

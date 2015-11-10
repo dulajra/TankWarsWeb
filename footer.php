@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<!--    <head>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <script src="bootstrap/scripts/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/styles.css">
-    </head>
+    </head>-->
 
     <body id="header_footer">
         <!--footer-->
