@@ -9,19 +9,22 @@
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/script.js"></script>
         <link rel="shortcut icon" href="favicon.png">
+
         <!--Custom fonts-->
+        
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
         <!-- Custom Fonts -->
         
         
-        
+
     </head>
 
-    <body id="home" style="margin-top: 50px; padding-bottom: 60px;" >
+    <body id="home" style="margin-top: 40px; margin-bottom: 60px;" >
 
         <?php
         require_once './header.php';
@@ -29,7 +32,7 @@
         ?>
 
         <!--Carousel-->
-        <div class="col-xs-12 col-md-6 col-md-offset-3">
+        <div class="col-xs-12">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -41,21 +44,20 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="img/home_carousel/img1.jpg" alt="...">
+                        <img src="img/slider/slider_1.jpg" alt="..." id="bg">
                         <div class="carousel-caption">
 
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/home_carousel/img2.jpg" alt="...">
+                        <img src="img/slider/slider_2.jpg" alt="..." id="bg">
                         <div class="carousel-caption">
 
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/home_carousel/img3.jpg" alt="...">
+                        <img src="img/slider/slider_3.jpg" alt="..." id="bg">
                         <div class="carousel-caption">
-
                         </div>
                     </div>
                 </div>
