@@ -92,8 +92,16 @@
                         through brick walls but can damage brick walls. One successful bullet hit will damage 25% of a brick. 
                         So that a brick wall becomes a blank cell after 4 successful bullet hits. </p>
                     <p>
-                    During the phase of gameplay, coin packs and health packs would appear and disappear in the Game World. Furthermore, the death of a Game Client also causes a Coin Pack to appear at the place of its death. A player may score points by collecting coins and destroying tanks. Furthermore, a player may recover health by collecting health packs.</p>
-
+                    During the phase of gameplay, coin packs and health packs would appear and disappear in the Game World. Furthermore, the death of a Player causes a Coin Pack to appear at the place of its death. <br><br>
+                    A player may score points by
+                    <ul>
+                        <li><b>Breaking Bricks</b> - Each time a brick is damaged by a bullet, a constant amount of points are added to Player</li>
+                        <li><b>Collecting Coins</b> - When a player moves over a coin pile, the coins and the points of the player are increased by an amount equal to the value of the coin pile</li>
+                        <li><b>Spoil of War</b> - When a player dies, 25% of points of the victim are added to the killer</li>
+                    </ul>
+                    
+                    When a player is shot, it's health diminishes. A player may die when it's health becomes zero. Furthermore, a player could die by traveling over water. A player may recover health by collecting health packs. </p>
+<br>
                     
                    <div class="panel-group">
                     <div class="panel panel-default">
@@ -105,7 +113,7 @@
                       <div id="collapseTWC" class="panel-collapse collapse">
                         <div class="panel-body">
                             <p align="justify">
-                    The Tank Wars Competition is annually organized by Department of Computer Science and Engineering, University of Moratuwa. This is a competition in which AI controlled Tank Wars clients compete each other in a range of 5 player warzones. The Game Clients which score most points in a particular round would be selected to the next round. The competition would terminate at the finals where the best AI featured clients would compete.
+                    The Tank Wars Competition is annually organized by Department of Computer Science and Engineering, University of Moratuwa. This is a competition in which AI controlled Tank Wars clients compete each other in a range of 5 player warzones. The Players who would score most points in a particular round would be selected to the next round. The competition would terminate at the finals where the best AI featured clients would compete.
                             </p>
                         </div>
                         
