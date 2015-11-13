@@ -119,7 +119,7 @@
                         </a>
                       <div id="collapseC" class="panel-collapse collapse">
                         <div class="panel-body">
-                                <p class="text-justify">“Envi” is a Tank Wars Client developed by Team Envision. Envi is powered by <b>Unity Game Engine</b>. </p>
+                                <p class="text-justify"><b>Envi</b> is a Tank Wars Client developed by Team Envision. Envi is powered by <b>Unity Game Engine</b>. </p>
 
                                 <b><u>AI System</u></b>
                                 <p align="justify">The <b>AI system</b> of <b>Envi</b> utilizes techniques such as <u>opponent behaviour prediction</u> and <u>strategic importance of cell</u> to determine its moves. Furthermore, the client consists of a self-defence system which prevents itself from undertaking a fatal move. This defence system also ensures that <b>Envi</b> avoids bullets fired by opponents.</p>
@@ -149,7 +149,8 @@
                       <div id="collapseS" class="panel-collapse collapse">
                         <div class="panel-body">
                             <p align="justify">
-                   
+                                The <b>TankWars Server</b> is provided by <b>Department of Computer Science and Engineering - University of Moratuwa</b> as a platform to hold the TankWars Competition. The client and the server utilizes a Client Server Socket Interface over LAN to communicate. The server can support upto 5 clients simultaneuosly. The Server would <u>maintain the state of the GameWorld</u>. Furthermore, it is responsible for <u>spawning collectables</u> to the Game World.
+                                
                             </p>
                         </div>
                         
