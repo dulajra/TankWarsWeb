@@ -10,7 +10,7 @@
     <body id="header_footer">
         <!--footer-->
         <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
-            <font color="#a9a9a9">CopyRight © 2015 Envision</font>
+            <font color="#a9a9a9">Copyright &copy; 2015 Envision</font>
         </div>
         <!--/footer-->
     </body>
