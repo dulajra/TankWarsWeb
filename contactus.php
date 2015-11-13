@@ -7,6 +7,7 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <link href="css/agency.css" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="favicon.png">
 
         <!--Custom fonts-->
         <!-- Custom Fonts -->

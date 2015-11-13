@@ -7,7 +7,7 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/script.js"></script>
-
+<link rel="shortcut icon" href="favicon.png">
         <script>
             $(document).ready(function () {
                 hideAll();
@@ -91,17 +91,84 @@
                     <p>Among above four kinds of objects, bullets can pass only through blank cells. Bullets cannot pass 
                         through brick walls but can damage brick walls. One successful bullet hit will damage 25% of a brick. 
                         So that a brick wall becomes a blank cell after 4 successful bullet hits. </p>
+                    <p>
+                    During the phase of gameplay, coin packs and health packs would appear and disappear in the Game World. Furthermore, the death of a Player causes a Coin Pack to appear at the place of its death. <br><br>
+                    A player may score points by
+                    <ul>
+                        <li><b>Breaking Bricks</b> - Each time a brick is damaged by a bullet, a constant amount of points are added to Player</li>
+                        <li><b>Collecting Coins</b> - When a player moves over a coin pile, the coins and the points of the player are increased by an amount equal to the value of the coin pile</li>
+                        <li><b>Spoil of War</b> - When a player dies, 25% of points of the victim are added to the killer</li>
+                    </ul>
+                    
+                    When a player is shot, it's health diminishes. A player may die when it's health becomes zero. Furthermore, a player could die by traveling over water. A player may recover health by collecting health packs. </p>
+<br>
+                    
+                   <div class="panel-group">
+                    <div class="panel panel-default">
+                        <a data-toggle="collapse" href="#collapseTWC">
+                          <div class="panel-heading">
+                              <h3 class="panel-title">The Tank Wars Competition</h3>
+                          </div>
+                        </a>
+                      <div id="collapseTWC" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p align="justify">
+                    The Tank Wars Competition is annually organized by Department of Computer Science and Engineering, University of Moratuwa. This is a competition in which AI controlled Tank Wars clients compete each other in a range of 5 player warzones. The Players who would score most points in a particular round would be selected to the next round. The competition would terminate at the finals where the best AI featured clients would compete.
+                            </p>
+                        </div>
+                        
+                      </div>
+                     </div>
+                     <div class="panel panel-default">
+                        <a data-toggle="collapse" href="#collapseC">
+                          <div class="panel-heading">
+                              <h3 id="main_2_sub_2" class="panel-title">Client Information</h3>
+                          </div>
+                        </a>
+                      <div id="collapseC" class="panel-collapse collapse">
+                        <div class="panel-body">
+                                <p class="text-justify"><b>Envi</b> is a Tank Wars Client developed by Team Envision. Envi is powered by <b>Unity Game Engine</b>. </p>
 
-                    <h3>How to score points?</h3>
-                    <dl>
-                        <dt></dt>
-                    </dl>
+                                <b><u>AI System</u></b>
+                                <p align="justify">The <b>AI system</b> of <b>Envi</b> utilizes techniques such as <u>opponent behaviour prediction</u> and <u>strategic importance of cell</u> to determine its moves. Furthermore, the client consists of a self-defence system which prevents itself from undertaking a fatal move. This defence system also ensures that <b>Envi</b> avoids bullets fired by opponents.</p>
 
-                    <h3 id="main_2_sub_2">Client Information</h3>
-                    <p class="text-justify"></p>
+                                <b><u>User Interface</u></b>
+                                <p align="justify">The GUI System is based on <b>Unity Game Engine</b>. It is a <u>3D</u> user interfaces with <u>smooth transitions between frames</u>.</p>
 
-                    <h3 id="main_2_sub_3">Server Information</h3>
-                    <p class="text-justify"></p>
+                                <b><u>System Requirements</u></b>
+                                <ul>
+                                    <li>Intel/AMD x86 based processor with SSE2 Instruction Set Support</li>
+                                    <li>512 MB Ram</li>
+                                    <li>Direct X 9.0 Compatible Graphics Card with Shader Model 2.0</li>
+                                    <li>Microsoft Windows XP or later operating System</li>
+                                    <li>LAN Capability to connect with the Server</li>
+                                    <li>Basic Sounds (Optional)</li>
+                                </ul>
+                        </div>
+                        
+                      </div>
+                     </div>
+                     <div class="panel panel-default">
+                        <a data-toggle="collapse" href="#collapseS">
+                          <div class="panel-heading">
+                              <h3 id="main_2_sub_3" class="panel-title">Server Information</h3>
+                          </div>
+                        </a>
+                      <div id="collapseS" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p align="justify">
+                                The <b>TankWars Server</b> is provided by <b>Department of Computer Science and Engineering - University of Moratuwa</b> as a platform to hold the TankWars Competition. The client and the server utilizes a Client Server Socket Interface over LAN to communicate. The server can support upto 5 clients simultaneuosly. The Server would <u>maintain the state of the GameWorld</u>. Furthermore, it is responsible for <u>spawning collectables</u> to the Game World.
+                                
+                            </p>
+                        </div>
+                        
+                      </div>
+                     </div>
+                    </div>
+                    
+                    
+                    
+            
 
                 </div>
             </div>            
