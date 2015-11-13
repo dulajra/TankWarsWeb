@@ -95,7 +95,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <quote>
-                            <p class="large text-muted"><big>Where the DREAMS become REALITY</big></p>
+                            <p class="large text-muted"><big>Where DREAMS become REALITY</big></p>
                         </quote>
                         
                     </div>
