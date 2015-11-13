@@ -19,7 +19,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top"><p>Envision</p></a>
+                    
+                    <a class="navbar-brand page-scroll" href="/"><big>Envision</big></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
