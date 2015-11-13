@@ -19,7 +19,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top"><p>Envision</p></a>
+                    
+                    <a class="navbar-brand page-scroll" href="/"><big>Envision</big></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,9 +61,9 @@
                     <!--Search-->
 
                     <div class="pull-right">
-                        <form class="navbar-form" role="search">
+                        <form class="navbar-form" role="search" method="get" action="search.php">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                                <input type="text" class="form-control" placeholder="Search" name="q" id="srch-term">
                                 <div class="input-group-btn">
                                     <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                                 </div>

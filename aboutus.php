@@ -2,19 +2,25 @@
 <html>
     <head>
         <title>Envision</title>
+        <link href="css/agency.css" rel="stylesheet">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        
         <script src="bootstrap/scripts/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        <link href="css/agency.css" rel="stylesheet">
+        
+
+        
         <link rel="stylesheet" href="css/styles.css">
 
         <!--Custom fonts-->
-        <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <!-- Custom Fonts -->
+        
+        
         <link rel="shortcut icon" href="favicon.png">
         
         <style>
@@ -89,7 +95,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <quote>
-                            <p class="large text-muted"><big>Where the DREAMS become REALITY</big></p>
+                            <p class="large text-muted"><big>Where DREAMS become REALITY</big></p>
                         </quote>
                         
                     </div>
