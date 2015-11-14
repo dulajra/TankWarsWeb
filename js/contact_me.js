@@ -17,16 +17,19 @@ $(function () {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "./php/sendemail.php",
+//                url: "http://dulaj.comuv.com/sendemail.php",
+//                url: "./php/sendemail.php",
+                url: "http://www.quarksis.com/sendemail.php",
                 type: "POST",
+                dataType: 'json',
                 data: {
+                    action: "success",
                     name: name,
                     phone: phone,
                     email: email,
                     message: message
                 },
-                cache: false,
-                success: function () {
+                success: function (data) {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -37,9 +40,10 @@ $(function () {
                             .append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-
+//                    alert("suc");
+//                    alert(JSON.stringify(data));
                 },
-                error: function () {
+                error: function (data) {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -48,10 +52,10 @@ $(function () {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
+//                    alert("err");
+//                    alert(JSON.stringify(data));
                 },
-            }).done(function (data) {
-                alert(JSON.stringify(data));
-            });
+            })
         },
         filter: function () {
             return $(this).is(":visible");
