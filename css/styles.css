@@ -97,10 +97,5 @@ i {
     color: #e74c3c;
 }
 
-#bg {
-    width: 100%;
-    height: 100%;
-}
-
 .carousel .carousel-control { visibility: hidden; }
 .carousel:hover .carousel-control { visibility: visible; }
