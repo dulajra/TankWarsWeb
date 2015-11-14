@@ -90,9 +90,9 @@
                     <h1  align="center">Tank Wars</h1><br>
 
                     <h2 id="main_2_sub_1">About Tank Wars</h2>
-                    <p class="text-justify">Tank Wars is a server-client shooting game which has a map of a 10 x 10 grid. 
-                        Players are represented by tanks and a game can contain upto maximum of 5 players. The game objective 
-                        is to accumulate points as mush as possible while ensuring tank's own survival. Tanks can shoot bullets
+                    <p class="text-justify"><b>Tank Wars</b> is a <b>server-client shooting game</b> which has a map of a <b>10 x 10 grid</b>. 
+                        Players are represented by <b>tanks</b> and a game can contain upto maximum of <b>5 players</b>. The game objective 
+                        is to <b>accumulate points as mush as possible while ensuring tank's own survival</b>. Tanks can <b>shoot bullets</b>
                         which move 3 times faster than the tanks. In addition to tanks, map contains following four kind of objects. </p>
 
                     <ul>
@@ -102,11 +102,11 @@
                         <li>Blank Cell</li>
                     </ul>
 
-                    <p>Among above four kinds of objects, bullets can pass only through blank cells. Bullets cannot pass 
-                        through brick walls but can damage brick walls. One successful bullet hit will damage 25% of a brick. 
+                    <p>Among above four kinds of objects, <b>bullets</b> can pass only through <b>blank cells</b>. <b>Bullets</b> cannot pass 
+                        through <b>brick walls</b> but can damage <b>brick walls</b>. One successful bullet hit will <b>damage 25% of a brick</b>. 
                         So that a brick wall becomes a blank cell after 4 successful bullet hits. </p>
                     <p>
-                    During the phase of gameplay, coin packs and health packs would appear and disappear in the Game World. Furthermore, the death of a Player causes a Coin Pack to appear at the place of its death. <br><br>
+                        During the phase of gameplay, <b>coin packs</b> and <b>health packs</b> would appear and disappear in the <b>Game World</b>. Furthermore, the <b>death of a Player</b> causes a <b>Coin Pack</b> to appear at the place of its death. <br><br>
                     A player may score points by
                     <ul>
                         <li><b>Breaking Bricks</b> - Each time a brick is damaged by a bullet, a constant amount of points are added to Player</li>
@@ -114,7 +114,7 @@
                         <li><b>Spoil of War</b> - When a player dies, 25% of points of the victim are added to the killer</li>
                     </ul>
                     
-                    When a player is shot, it's health diminishes. A player may die when it's health becomes zero. Furthermore, a player could die by traveling over water. A player may recover health by collecting health packs. </p>
+                    When a player is <b>shot</b>, it's <b>health</b> diminishes. A <b>player</b> may die when it's <b>health</b> becomes zero. Furthermore, a player could die by traveling over <b>water</b>. A player may <b>recover health</b> by collecting <b>health packs.</b> </p>
 <br>
                     
                    <div class="panel-group">
@@ -127,7 +127,7 @@
                       <div id="collapseTWC" class="panel-collapse collapse">
                         <div class="panel-body">
                             <p align="justify">
-                    The Tank Wars Competition is annually organized by Department of Computer Science and Engineering, University of Moratuwa. This is a competition in which AI controlled Tank Wars clients compete each other in a range of 5 player warzones. The Players who would score most points in a particular round would be selected to the next round. The competition would terminate at the finals where the best AI featured clients would compete.
+                                The <b>Tank Wars Competition</b> is annually organized by <b>Department of Computer Science and Engineering, University of Moratuwa</b>. This is a competition in which <b>AI</b> controlled <b>Tank Wars clients</b> compete each other in a range of <b>5 player warzones</b>. The <b>Players</b> who would score most <b>points</b> in a particular <b>round</b> would be selected to the next round. The competition would <b>terminate</b> at the finals where the best <b>AI</b> featured clients would compete.
                             </p>
                         </div>
                         
