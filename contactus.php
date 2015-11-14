@@ -4,24 +4,34 @@
         <title>Envision</title>
         <link href="css/agency.css" rel="stylesheet">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        
+
         <script src="bootstrap/scripts/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
-        
+
         <link rel="stylesheet" href="css/styles.css">
         <link rel="shortcut icon" href="favicon.png">
-        
+
         <script src="bootstrap/js/jqBootstrapValidation.js"></script>
         <script src="js/contact_me.js"></script>
 
-              <!--Custom fonts-->
+        <!--Custom fonts-->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
         <!-- Custom Fonts -->
-        
+
+        <script>
+            $(document).ready(function () {
+                $("#message").keypress(function (event) {
+                    if (event.which == '13') {
+                        return false;
+                    }
+                });
+            });
+        </script>
+
     </head>
     <body id="home" style="margin-top: 50px; padding-bottom: 60px;" >
 

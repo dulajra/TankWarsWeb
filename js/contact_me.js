@@ -18,11 +18,11 @@ $(function () {
             }
             $.ajax({
 //                url: "http://dulaj.comuv.com/sendemail.php",
-                url: "./php/sendemail.php",
+//                url: "./php/sendemail.php",
+                url: "./php/emailcaller.php",
 //                url: "http://www.quarksis.com/sendemail.php",
-                type: "GET",
+                type: "POST",
                 dataType: 'json',
-                timeout:3000,
                 data: {
                     action: "success",
                     name: name,
