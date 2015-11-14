@@ -17,10 +17,9 @@
         <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
     </head>
-
-    <body id="home" style="margin-top: 40px; margin-bottom: 60px;" >
+    
+    <body id="home" style="margin-top: 40px; padding-bottom: 60px;" >
 
         <?php
         require_once './header.php';
@@ -40,19 +39,19 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="img/home_carousel/img1.jpg" alt="..." id="bg">
+                        <img src="img/home_carousel/slider_1.jpg" alt="..." id="bg">
                         <div class="carousel-caption">
 
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/home_carousel/img1.jpg" alt="..." id="bg">
+                        <img src="img/home_carousel/slider_2.jpg" alt="..." id="bg">
                         <div class="carousel-caption">
 
                         </div>
                     </div>
                     <div class="item">
-                        <img src="img/home_carousel/img1.jpg" alt="..." id="bg">
+                        <img src="img/home_carousel/slider_3.jpg" alt="..." id="bg">
                         <div class="carousel-caption">
                         </div>
                     </div>

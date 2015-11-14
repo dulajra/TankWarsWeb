@@ -20,7 +20,7 @@ $(function () {
 //                url: "http://dulaj.comuv.com/sendemail.php",
                 url: "./php/sendemail.php",
 //                url: "http://www.quarksis.com/sendemail.php",
-                type: "POST",
+                type: "GET",
                 dataType: 'json',
                 timeout:3000,
                 data: {
