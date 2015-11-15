@@ -31,7 +31,7 @@ $(function () {
                     message: message
                 },
                 success: function (data) {
-//                    alert(JSON.parse(data));
+                    alert(JSON.parse(data));
                     if (JSON.parse(data) == true) {
                         // Success message
                         $('#success').html("<div class='alert alert-success'>");
