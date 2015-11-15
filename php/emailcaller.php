@@ -24,10 +24,10 @@ function get_url($request_url) {
 
 //$url = "http://www.quarksis.com/mailerAPI/mailer.php?ty=send&un=envisionlabz&pw=Envisionlabz@1234&msg=" . $message . "&sub=Tank Wars Customer Message&name=" . $name . "&cli=" . $email;
 
-//$url = "www.quarksis.com/sendemail.php?to=" . $to . "&name=" . $name . "&email=" . $email . "&subject=" . $subject . "&message=" . $message . "&from=" . $from . "&replyto=" . $replyto;
-//$url = str_replace(' ', '%20', $url);
-//$url = str_replace("<br>", '%0A', $url);
-//$response = get_url($url);
-//echo json_encode($response);
+$url = "www.quarksis.com/sendemail.php?to=" . $to . "&name=" . $name . "&email=" . $email . "&subject=" . $subject . "&message=" . $message . "&from=" . $from . "&replyto=" . $replyto;
+$url = str_replace(' ', '%20', $url);
+$url = str_replace("<br>", '%0A', $url);
+$response = get_url($url);
+echo json_encode($response);
 
-echo json_encode(TRUE);
+//echo json_encode(TRUE);
