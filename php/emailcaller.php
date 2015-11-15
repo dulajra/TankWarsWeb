@@ -30,4 +30,4 @@ function get_url($request_url) {
 //$response = get_url($url);
 //echo json_encode($response);
 
-echo json_encode("Hello php");
+echo json_encode(TRUE);
