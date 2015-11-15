@@ -29,6 +29,7 @@
             <li class="nav-header">
                 <a href="#" data-toggle="collapse" data-target="#menu3"> Download <i class="glyphicon glyphicon-chevron-right"></i></a>
                 <ul class="nav nav-stacked collapse" id="menu3">
+                    <li  id="main_3" ><a href="#main_3_sub_1"><i class="glyphicon glyphicon-facetime-video"></i> Trailer</a></li>
                     <li  id="main_3" ><a><i class="glyphicon glyphicon-download"></i> Tank Wars Client<i><small> - Coming Soon</small></i></a></li>
                 </ul>
             </li>

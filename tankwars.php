@@ -40,12 +40,17 @@
                         hideAll();
                         $("#main_2_content").show();
                     }
+                    else if (id == 'main_3') {
+                        hideAll();
+                        $("#main_3_content").show();
+                    }
                 })
             });
 
             function hideAll() {
                 $("#main_1_content").hide();
                 $("#main_2_content").hide();
+                $("#main_3_content").hide();
             }
 
         </script>
@@ -121,7 +126,7 @@
                             through <b>brick walls</b> but can damage <b>brick walls</b>. One successful bullet hit will <b>damage 25% of a brick</b>. 
                             So that a brick wall becomes a blank cell after 4 successful bullet hits. </p>
                         <p>
-                            During the phase of gameplay, <b>coin packs</b> and <b>health packs</b> would appear and disappear in the <b>Game World</b>. Furthermore, the <b>death of a Player</b> causes a <b>Coin Pack</b> to appear at the place of its death. <br><br>
+                            During the phase of game play, <b>coin packs</b> and <b>health packs</b> would appear and disappear in the <b>Game World</b>. Furthermore, the <b>death of a Player</b> causes a <b>Coin Pack</b> to appear at the place of its death. <br><br>
                             A player may score points by
                         <ul>
                             <li><b>Breaking Bricks</b> - Each time a brick is damaged by a bullet, a constant amount of points are added to Player</li>
@@ -129,7 +134,7 @@
                             <li><b>Spoil of War</b> - When a player dies, 25% of points of the victim are added to the killer</li>
                         </ul>
 
-                        When a player is <b>shot</b>, it's <b>health</b> diminishes. A <b>player</b> may die when it's <b>health</b> becomes zero. Furthermore, a player could die by traveling over <b>water</b>. A player may <b>recover health</b> by collecting <b>health packs.</b> </p>
+                        <p>When a player is <b>shot</b>, it's <b>health</b> diminishes. A <b>player</b> may die when it's <b>health</b> becomes zero. Furthermore, a player could die by traveling over <b>water</b>. A player may <b>recover health</b> by collecting <b>health packs.</b> </p>
                         <br>
 
                         <div class="panel-group">
@@ -197,6 +202,21 @@
 
 
 
+
+
+                    </div>
+                </div>            
+            </div>
+
+            <div id="main_3_content" class="container" >
+                <div class="row">
+                    <div id="content" class="col-md-8">
+                        <h1 align="center">Download</h1><br>
+
+                        <h3 id="main_3_sub_1">Trailer</h3>
+                        <iframe
+                            src="http://www.youtube.com/embed/XGSy3_Czz8k?value=1&autoplay=0">
+                        </iframe>
 
 
                     </div>
