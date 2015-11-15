@@ -31,7 +31,7 @@ $(function () {
                     message: message
                 },
                 success: function (data) {
-                    alert(JSON.parse(data));
+//                    alert(JSON.parse(data));
                     if (JSON.parse(data) == true) {
                         // Success message
                         $('#success').html("<div class='alert alert-success'>");
@@ -57,7 +57,7 @@ $(function () {
 //                    alert(JSON.stringify(data));
                 },
                 error: function (data) {
-                    alert(JSON.stringify(data));
+//                    alert(JSON.stringify(data));
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")

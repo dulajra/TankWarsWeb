@@ -5,7 +5,7 @@ $phone = $_POST['phone'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-$message = 'Name: ' . $name . '%0APhone: ' . $phone . '%0A%0A' . $message;
+$message = 'Name: ' . $name . '%0APhone: ' . $phone . '%0A%0A' . 'Message:%0A' . $message;
 $to = 'envisionlabz@gmail.com';
 $subject = "Tank Wars Cutomer Message";
 $from = 'noreply@tankwars.com';
